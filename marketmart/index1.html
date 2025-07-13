@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MarketMart ‑ Remodel & Build Request</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+   <header class="header">
+      <div id="logo-img" class="container header__inner">
+        <div class="logo">
+  <img src="./images/2.png" alt="MarketMart Logo" class="logo__img" />
+  <h1>MARKET<span>MART</span></h1>
+</div>
+
+        <nav class="nav">
+          <a href="#quote-form" class="btn btn--primary">GET A QUOTE</a>
+        </nav>
+      </div>
+    </header>
+x
+  <!-- ===== About Section ===== -->
+  <section class="about-section">
+    <div class="container about__flex card card--dark">
+      <div class="about__image">
+        <img src="./images/HEROHOUSEBUILDING.PNG" alt="About MarketMart" />
+      </div>
+      <div class="about__text">
+        <div class="about__box">
+          <h2>ABOUT MARKETMART</h2>
+          <p>
+            MARKETMART IS A DALLAS-BASED COMPANY THAT CONNECTS YOU WITH A WIDE RANGE OF PROFESSIONAL, HIGHLY QUALIFIED CONSTRUCTION COMPANIES. WHETHER YOUR PROJECT IS BIG OR SMALL, WE HAVE THE RIGHT TEAM FOR THE JOB.
+          </p>
+        </div>
+        <section class="parallax-section">
+  <div class="parallax-content">
+    <h2>We Design. We Build. We Deliver.</h2>
+    <p>Your dream project is just one form away.</p>
+  </div>
+</section>
+
+        <div class="about__box">
+          <h2>OUR MISSION</h2>
+          <p>
+            OUR VARIETY OF TRUSTED CONTRACTORS AND THE QUALITY OF WORKMANSHIP WE DELIVER ARE UNMATCHED ACROSS TEXAS. EVERY COMPANY WE WORK WITH HAS OVER 7 YEARS OF EXPERIENCE IN THE FIELD, EXCELLENT TRACK RECORDS, AND HIGH CUSTOMER REFERRAL RATES.
+          </p>
+        </div>
+        <div class="about__box">
+          <h2>OUR SERVICES</h2>
+          <p>
+            WE SPECIALIZE IN RESIDENTIAL AND COMMERCIAL REMODELING, CONSTRUCTION, AND RENOVATION. FROM KITCHEN AND BATHROOM REMODELS TO FULL HOME BUILDS, WE HANDLE IT ALL WITH PROFESSIONALISM AND CARE.
+          </p>
+        </div>
+      
+    
+    
+    </div>
+
+    </div>
+  <
+
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero-section">
+    <div class="container hero__flex">
+      <div class="hero__image">
+        <img src="./images/MARKETMARTWHEREALLTHEGREAT.PNG" alt="Hero MarketMart Construction" />
+      </div>
+      <div class="hero__text">
+        <h2 class="hero__headline">
+          DREAMING OF A NEW SPACE?<br />
+          WE DESIGN, REMODEL, AND BUILD IT.
+        </h2>
+        <p class="hero__sub">
+          TELL US WHAT YOU NEED—OUR PROS WILL TURN IT INTO REALITY.
+        </p>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <!-- ===== Quote Form Section ===== -->
+  <section class="quote-section" id="quote-form">
+    <div class="container quote__flex card">
+      <div class="quote__image">
+        <img src="./images/WEAREREADYTOBUILDYOURNEWVISION.PNG" alt="Request a Quote" />
+      </div>
+      <div class="quote__form">
+        <h3 class="card__title">REQUEST YOUR FREE CONSULTATION</h3>
+        <form action="#" method="POST" class="form">
+          <div class="form__row">
+            <label for="name">NAME</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form__row">
+            <label for="email">EMAIL ADDRESS</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form__row">
+            <label for="project">WHAT DO YOU NEED REMODELED OR BUILT?</label>
+            <textarea id="project" name="project" rows="4" placeholder="Describe your project…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block">SEND REQUEST</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__flex">
+      <div class="footer__image">
+        <img src="./images/contractorsofdallastx.png" alt="Footer Construction Image" />
+      </div>
+      <div class="footer__text">
+        <p>&copy; <span id="year"></span> MARKETMART. ALL RIGHTS RESERVED.</p>
+        <p class="tagline">BUILT WITH PRIDE IN BLACK, YELLOW & WHITE.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Auto-update Year -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
