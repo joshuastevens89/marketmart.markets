@@ -91,9 +91,9 @@ x
       </div>
       <div class="quote__form">
         <h3 class="card__title">REQUEST YOUR FREE CONSULTATION</h3>
-       <form action="https://formsubmit.co/misteramericamister@gmail.com" method="POST" class="form">
-  <!-- Optional hidden inputs -->
-  <input type="hidden" name="_next" value="https://joshuastevens89.github.io/marketmart.markets/thank-you.html">
+<form action="https://formsubmit.co/misteramericamister@gmail.com" method="POST" class="form">
+  <!-- Hidden fields -->
+  <input type="hidden" name="_next" value="https://joshuastevens89.github.io/marketmart.markets/marketmart">
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_subject" value="New Quote Request from MarketMart!">
 
@@ -101,16 +101,25 @@ x
     <label for="name">NAME</label>
     <input type="text" id="name" name="name" required />
   </div>
+
   <div class="form__row">
     <label for="email">EMAIL ADDRESS</label>
     <input type="email" id="email" name="email" required />
   </div>
+
+  <div class="form__row">
+    <label for="phone">PHONE NUMBER</label>
+    <input type="tel" id="phone" name="phone" required />
+  </div>
+
   <div class="form__row">
     <label for="project">WHAT DO YOU NEED REMODELED OR BUILT?</label>
     <textarea id="project" name="project" rows="4" placeholder="Describe your project…" required></textarea>
   </div>
+
   <button type="submit" class="btn btn--primary btn--block">SEND REQUEST</button>
 </form>
+
 
       </div>
     </div>
