@@ -1,2 +1,0 @@
-# AWS-Website
-marketmart.marketing
