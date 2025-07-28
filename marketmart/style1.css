@@ -325,5 +325,24 @@ body {
   font-size: 1rem;
   padding: 0.75rem 1.5rem;
 }
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.parallax__content {
+  background: rgba(0, 0, 0, 0.4); /* Optional overlay */
+  padding: 2rem;
+  text-align: center;
+}
+
 
 
